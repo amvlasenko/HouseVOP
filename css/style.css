@@ -1,0 +1,144 @@
+.header {
+    padding-top: 30px;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav a {
+    color: white;
+}
+
+.header-contacts {
+    margin-top: 200px;
+}
+
+.header-contacts h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    line-height: 64px;
+    color: #D4C17F;
+}
+
+.header-contacts .mouse {
+    margin-top: 100px;
+}
+
+.header-contacts .adress {
+    margin-top: 200px;
+    margin-bottom: 74px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.features {
+    background-color: #242B33;
+}
+
+.features .row {
+    padding: 120px 0;
+    color: white;
+    background-image: url(../img/II.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.features .row>div {
+    margin-bottom: 20px;
+}
+
+.features .bench {
+    padding-top: 133px;
+    background-image: url(../img/bench.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.features .building {
+    padding-top: 133px;
+    background-image: url(../img/building.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.features .fountain {
+    padding-top: 133px;
+    background-image: url(../img/fountain.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.features .bicycle {
+    padding-top: 133px;
+    background-image: url(../img/bicycle.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.appartaments {
+    background-color: #242B33;
+}
+
+.appartaments {
+    padding: 1px 0;
+    background-image: url(../img/III.svg);
+    background-repeat: no-repeat;
+    background-position: 12em 5em;
+}
+
+.appartaments h2 {
+    margin-bottom: 100px;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.appartaments .row {
+    margin-bottom: 30px;
+}
+
+.appartament {
+    position: relative;
+}
+
+.appartament span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    font-family: Raleway;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+}
+
+.writeus {
+    padding: 180px 0;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/writeus-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.writeus h2 {
+    margin-bottom: 100px;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.writeus p {
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
