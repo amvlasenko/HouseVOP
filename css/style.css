@@ -28,7 +28,8 @@
     margin-top: 100px;
 }
 
-.header-contacts .adress {
+.header-contacts .adress,
+.header-contacts a {
     margin-top: 200px;
     margin-bottom: 74px;
     font-family: "Raleway", sans-serif;
@@ -143,7 +144,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.writeus .discription {
+.discription {
     font-family: "Raleway";
     font-size: 13px;
     line-height: 16px;
@@ -168,4 +169,94 @@ h2 {
     background-image: url(../img/IV.svg);
     background-repeat: no-repeat;
     background-position: center right;
+}
+
+.map {
+    padding-bottom: 180px;
+    background-color: #242B33;
+    background-image: url(../img/V.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.map h2 {
+    margin-bottom: 100px;
+}
+
+.questions {
+    padding-bottom: 180px;
+    background-color: #242B33;
+}
+
+.questions .discription {
+    margin-bottom: 15px;
+}
+
+.questions input {
+    min-height: 50px;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 51px;
+    background-color: #2D343C;
+}
+
+.footer a,
+.footer-contacts div {
+    font-family: "Raleway";
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+.footer-contacts {
+    padding: 0 22px;
+    margin-bottom: 20px;
+}
+
+.footer-contacts div {
+    padding: 8px 0;
+}
+
+.footer .nav {
+    margin-top: 0;
+}
+
+.footer .mail {
+    font-weight: bold;
+    color: #D4C17F;
+}
+
+.socials .social {
+    display: block;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.socials .youtube {
+    background-image: url(../img/icon-youtube.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socials .vk {
+    background-image: url(../img/icon-vk.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socials .facebook {
+    background-image: url(../img/icon-facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socials .instagram {
+    background-image: url(../img/icon-instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
