@@ -90,7 +90,7 @@
     background-position: 12em 5em;
 }
 
-.appartaments h2 {
+h2 {
     margin-bottom: 100px;
     font-family: "Playfair Display", serif;
     font-size: 36px;
@@ -104,6 +104,7 @@
 
 .appartament {
     position: relative;
+    margin-bottom: 30px;
 }
 
 .appartament span {
@@ -128,17 +129,43 @@
     background-position: center;
 }
 
-.writeus h2 {
-    margin-bottom: 100px;
-    font-family: "Playfair Display", serif;
-    font-size: 36px;
-    line-height: 48px;
-    color: #D4C17F;
-}
-
 .writeus p {
     font-family: "Raleway";
     font-size: 16px;
     line-height: 24px;
     color: white;
+}
+
+.writeus input {
+    min-height: 50px;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.writeus .discription {
+    font-family: "Raleway";
+    font-size: 13px;
+    line-height: 16px;
+    color: #E7E7E7;
+}
+
+.writeus-btn {
+    padding-top: 12px;
+    padding-bottom: 11px;
+    color: white;
+    border-radius: 0;
+    background-color: #D4C17F;
+}
+
+.writeus-bottom {
+    margin-top: 15px;
+}
+
+.video {
+    padding-bottom: 180px;
+    background-color: #242B33;
+    background-image: url(../img/IV.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
 }
